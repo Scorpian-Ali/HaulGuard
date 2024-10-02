@@ -1,0 +1,818 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-1 {
+    background-image: url(./assets/Hero\ Image.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#forest {
+    margin: auto;
+}
+
+#back {
+    padding: 30px 0 0;
+}
+
+#back li a {
+    color: white;
+    padding: 0 26px;
+}
+#back li a:hover{
+    color: #6CAD19;
+    transition: 0.4s;
+}
+
+
+.hot {
+    color: #6CAD19;
+    text-decoration: none;
+    font-size: 29px;
+    padding: 0 0 0 25px;
+}
+.btn{
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: #6CAD19;
+    color: white;
+    transition: 0.4s;
+}
+
+.main{
+    
+    background-color: white;
+    width: 320px;
+    height: 470px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 35% 0 0 30%;
+}
+.main .formula{
+    text-align: center;
+    background-color: #6CAD19;
+    color: white;
+    font-weight: bolder;
+    padding: 12px 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.cash {
+    padding: 15px 26px;
+}
+.main input{
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+    width: 100%;
+    padding: 34px 10px 5px
+}
+.main button{
+    border: none;
+    margin: 10% auto 0;
+    display: block;
+    background-color: #6CAD19;
+    color: white;
+    padding: 15px 60px;
+    border-radius: 16px;
+}
+.left h6{
+    color: #6CAD19;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 3px;
+}
+.left h1{
+    font-size: 45px; 
+    font-weight: 700;
+}
+.left p{
+    color: #8F8F8F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+.font{
+    color: white;
+    margin: 27% 0 0 3%;
+    
+}
+.font h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.font p{
+    font-size: 30px;
+    font-weight: 300;
+    width: 553px;
+}
+.right img{
+    width: 100%;
+}
+
+.sec-2{
+    margin: 7% 3%;
+}
+
+.left{
+    margin-top: 12%;
+}
+
+.sec-3{
+    background-image: url(./assets/cars.png);
+    background-size: cover;
+    height: 100%;
+}
+
+
+.two{
+    padding: 6% 0;
+}
+
+.two h2{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+}
+.two p .four{
+    font-weight: 600;
+    color: white;
+}
+.two p .five{
+    font-weight: 300;
+    color: white;
+}
+
+.two p{
+    margin: 7% 0 4%;
+    font-size: 21px;
+    text-align: center;
+}
+.card .bot img{
+    width: 100%;
+}
+.sec-4 .col-lg-3{
+    padding: 0;
+}
+.test h1{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5%;
+    font-size: 55px;
+}
+
+.bot{
+    position: relative;
+}
+.bot h6 {
+    border-top: 2px solid white;
+    width: 86%;
+    color: white;
+    font-size: 21px;
+    position: absolute;
+    top: 60%;
+    left: 7%;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.card p {
+    color: #8F8F8F;
+    width: 100%;
+    padding: 6% 9% 6% 8%;
+    font-size: 14px;
+}
+
+.bot {
+    position: relative;
+    overflow: hidden;   
+}
+
+.bot::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(108, 173, 25, 1) 0%, rgba(108, 173, 25, 1) 20.51%, rgba(108, 173, 25, 1) 46.51%, #6CAD19 100%);
+    z-index: 1;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+.bot:hover::after {
+    opacity: 0.6;
+}
+
+.sec-4{
+    margin: 14% 0 10%;
+}
+
+
+
+.cord img{
+    width: 100%;
+}
+
+.cord-1 {
+    margin: 23% 0 0 10%;
+}
+.cord-1 h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: #171717;
+}
+.cord-1 p{
+    color:#8F8F8F;
+    font-size: 14px;
+}
+
+.sec-5{
+    margin: 16% 0 8%;
+}
+.cross{
+    margin-left: 3%;
+}
+
+
+.cross-2 {
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.cross h6{
+    font-size: 30px;
+    font-weight: 400;
+}
+.cross h1{
+    font-size: 55px;
+    font-weight: 700;
+    width: 510px;
+}
+.cross-2 h1{
+    font-size: 55px;
+    font-weight: 700;
+    width: 510px;
+}
+.cross-2 p {
+    width: 84%;
+}
+.code span {
+    font-size: 21px;
+    font-weight: 600;
+    margin: 12% 2%;
+}
+
+.crime hr{
+    color: white;
+    width: 100%;
+    margin: 0 auto 20px;
+    margin-top: 10%;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy-1 img {
+    width: 30px;
+}
+.copy-2 p {
+    color: white;
+}
+
+.code {
+    border: 2px solid transparent;
+    padding: 9%;
+    width: 100%;
+    height: 386px;
+    margin: 0 0;
+}
+.code .cast{
+    display: flex;
+}
+.code p {
+    font-size: 19px;
+    font-weight: 300;
+    margin: 7% 1% 10% 4px;
+}
+.cross-1 img{
+   width: 100%;
+   height: 300px;
+}
+
+.sec-7 {
+    margin: 12% 0 4%;
+}
+
+.sec-8 {
+    background-image: url(./assets/Footer.png);
+    padding: 0 7%;
+    height: 100%;
+    background-size: cover;
+}
+.footer {
+    margin: 53% 0 0 0;
+}
+
+
+.footer h4{
+    margin-top: 20%;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.footer p {
+    font-size: 11px;
+    font-weight: 400;
+    width: 131%;
+    display: inline-block;
+}
+.footer h3{
+    font-size: 29px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.footer-1 {
+    margin: 53% 0 0 29%;
+}
+
+.footer-1 h3{
+    font-size: 29px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.footer-1 ul li{
+    list-style: none;
+   
+}
+.footer-1 ul li a{
+    font-size: 16px;
+    padding: 6% 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.footer-1 ul li a:hover{
+    color: #6CAD19;
+}
+.footer-1 #duck{
+    padding-left: 0;
+    margin-top: 14%;
+}
+
+.footer-2 {
+    margin: 53% 0 0 16%;
+}
+
+.footer-2 h3{
+    font-size: 29px;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+.footer-2 button{
+    margin: 4% 0;
+}
+
+.footer-2 button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 7px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+
+}
+.footer-2 button a:hover{
+    color: #6CAD19;
+    transition: 0.5s;
+}
+
+.copy-1 a i {
+    color: white;
+    font-size: 138%;
+    padding: 0% 6px;
+}
+.copy-1 a i:hover {
+    color: #6CAD19;
+    transition: 0.5s;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .font p {
+        font-size: 16px;
+        font-weight: 300;
+        width: 100%;
+    }
+    .main {
+        background-color: white;
+        width: 100%;
+        height: 455px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        margin: 8% 0 0 0%;
+    }
+        
+
+    .font h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .hot {
+        color: #6CAD19;
+        text-decoration: none;
+        font-size: 29px;
+        padding: 0 0 0 6px;
+    }
+    #back li a {
+        color: white;
+        padding: 34% 0;
+        text-align: center;
+    }
+    #back li{
+        margin: 0 auto;
+    }
+    .btn {
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 5px 15px;
+        margin: 0 auto;
+        transition: 0.4s;
+    }
+    .sec-1 {
+        background-image: url(./assets/Hero\ Image.png);
+        background-size: cover;
+        height: 100%;
+    }
+    .cross-2 {
+        margin-left: -1%;
+        margin-top: 2%;
+    }
+    .cross-2 h1 {
+        font-size: 38px;
+        font-weight: 700;
+        width: 100%;
+    }
+    .footer p {
+        font-size: 11px;
+        font-weight: 400;
+        width: 100%;
+        display: inline-block;
+    }
+    .cross h1 {
+        font-size: 23px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+    }
+    .cross h6 {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .cord-1 h1 {
+        font-size: 31px;
+        font-weight: 700;
+        color: #171717;
+        text-align: center;
+    }
+    .left h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .cross-2 p {
+        width: 100%;
+    }
+    .cross-1 img {
+        width: 100%;
+        height: 198px;
+    }
+    .two h2 {
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .two p {
+        margin: 7% 0 4%;
+        font-size: 13px;
+        text-align: center;
+    }
+    .left p {
+        color: #8F8F8F;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .test h1 {
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 5%;
+        font-size: 30px;
+    }   
+    .cross-2 span{
+        font-size: 38px;
+    }    
+
+    .code {
+        border: 2px solid transparent;
+        padding: 4%;
+        width: 100%;
+        height: 100%;
+        margin: 0 0;
+    }
+    .footer {
+        margin: 39% 0 0 0;
+    }
+    .footer-1 {
+        margin: 21% 0 0 0;
+    }
+    .footer-2 {
+        margin: 21% 0 0 0;
+    }
+    .copy-1 a i {
+        color: white;
+        font-size: 100%;
+        padding: 0% 2px;
+    }
+    .copy-2 p {
+        color: white;
+        font-size: 12px;
+    }
+
+
+    
+} 
+
+@media only screen and (min-width:481px) and (max-width:767px){
+    .sec-1 {
+        background-image: url(./assets/Hero\ Image.png);
+        background-size: cover;
+        height: 100%;
+    }
+    .font p {
+        font-size: 24px;
+        font-weight: 300;
+        width: 100%;
+    }
+    .font h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .main {
+        background-color: white;
+        width: 72%;
+        height: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        margin: 8% auto 0%;
+    }
+    .left h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+    .footer p {
+        font-size: 11px;
+        font-weight: 400;
+        width: 100%;
+        display: inline-block;
+    }
+    .footer-1 {
+        margin: 21% 0 0 0%;
+    }
+    .footer-2 {
+        margin: 22% 0 0 0%;
+    }
+    .cross-2 h1 {
+        font-size: 41px;
+        font-weight: 700;
+        width: 100%;
+    }
+    .cross-2 {
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .cross h1 {
+        font-size: 33px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+    }
+    .cross-2 p {
+        width: 100%;
+    }
+    .cross h6 {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .cord-1 p {
+        color: #8F8F8F;
+        font-size: 14px;
+        text-align: center;
+    }
+    .code{
+        border: 2px solid transparent;
+        width: 100%;
+        height: 100%;
+        padding: 4%;
+        margin: 0 0;
+    }
+    .card .bot img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .bot::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(108, 173, 25, 1) 0%, rgba(108, 173, 25, 1) 20.51%, rgba(108, 173, 25, 1) 46.51%, #6CAD19 100%);
+        z-index: 1;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        margin: 0 10%;
+    }
+    .bot h6 {
+        border-top: 2px solid white;
+        width: 71%;
+        color: white;
+        font-size: 21px;
+        position: absolute;
+        top: 60%;
+        left: 14%;
+        text-align: center;
+        padding: 6px 0;
+    }
+    .card p {
+        color: #8F8F8F;
+        width: 100%;
+        padding: 6% 9% 6% 8%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .cord-1 h1 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #171717;
+        text-align: center;
+    }
+    .footer {
+        margin: 27% 0 0 0;
+    }
+
+    
+
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .sec-1 {
+        background-image: url(./assets/Hero\ Image.png);
+        background-size: cover;
+        height: 100%;
+    }
+    .main {
+        background-color: white;
+        width: 320px;
+        height: 470px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        margin: 35% 0 0 11%;
+    }
+    .font p {
+        font-size: 21px;
+        font-weight: 300;
+        width: 100%;
+    }
+    .font h1 {
+        font-size: 49px;
+        font-weight: 700;
+    }
+    .left h1 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .cord-1 h1 {
+        font-size: 46px;
+        font-weight: 700;
+        color: #171717;
+    }
+    .code p{
+        font-size: 16px;
+        font-weight: 300;
+        margin: 7% 1% 10% 4px;
+
+    }
+    .cross h1 {
+        font-size: 47px;
+        font-weight: 700;
+        width: 510px;
+    }
+    .cross-2 {
+        margin-left: 0;
+        margin-top: 2%;
+    }
+    .code {
+        border: 2px solid transparent;
+        padding: 4%;
+        width: 100%;
+        height: 100%;
+        margin: 0 2%;
+    }
+    .slick-slide img {
+        display: block;
+        width: 41%;
+        height: 100%;
+    }
+    .code span {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 12% 2%;
+    }
+    .footer-2 h3 {
+        font-size: 29px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .footer-2 button {
+        margin: 4% 0;
+        display: block;
+        margin: 6% auto 0px;
+    }
+    .footer-2 {
+        margin: 7% 0 0 0;
+    }
+    .btn {
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 5px 15px;
+        margin-right: 20px;
+        transition: 0.4s;
+        display: block;
+        margin: 0 auto;
+    }
+    #back li a {
+        color: white;
+        padding: 17px 26px;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px){
+    .footer-2 {
+        margin: 53% 0 0 5%;
+    }
+    .footer-1 h3 {
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .font p {
+        font-size: 27px;
+        font-weight: 300;
+        width: 553px;
+    }
+    .font h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .font {
+        color: white;
+        margin: 48% 0 0 3%;
+    }
+    .main {
+        background-color: white;
+        width: 320px;
+        height: 470px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        margin: 64% 0 0 30%;
+    }
+
+}
